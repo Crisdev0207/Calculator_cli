@@ -1,7 +1,7 @@
 ### Un programa que simula una calculadora básica con las operaciones: suma, resta, multiplicación y división.
 
 def calculadora():
-    print("Selleccione el tipo de operación que desea realizar: ")
+    print("Seleccione el tipo de operación que desea realizar: ")
     print("1. Suma")
     print("2. Resta")
     print("3. Multiplicación")
