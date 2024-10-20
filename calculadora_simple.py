@@ -1,30 +1,30 @@
-### Un programa que simula una calculadora básica con las operaciones: suma, resta, multiplicación y división.
+### A program that simulates a basic calculator with the operations: addition, subtraction, multiplication, and division.
 
-def calculadora():
-    print("Seleccione el tipo de operación que desea realizar: ")
-    print("1. Suma")
-    print("2. Resta")
-    print("3. Multiplicación")
-    print("4. División")
+def calculator():
+    print("Select the type of operation you want to perform: ")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
 
-    operacion = input("Introduce la opción entre (1/2/3/4): ")
+    operation = input("Enter the option (1/2/3/4): ")
 
-    num1 = float(input("Introduce el primer número: "))
-    num2 = float(input("Introduce el segundo número: "))
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
 
-    if operacion == '1':
+    if operation == '1':
         print(f"{num1} + {num2} = {num1 + num2}")
-    elif operacion == '2':
+    elif operation == '2':
         print(f"{num1} - {num2} = {num1 - num2}")
-    elif operacion == '3':
+    elif operation == '3':
         print(f"{num1} * {num2} = {num1 * num2}")
-    elif operacion == '4':
+    elif operation == '4':
         if num2 != 0:
             print(f"{num1} / {num2} = {num1 / num2}")
         else:
-            print("Error: División entre el número 0 no es permitida")
+            print("Error: Division by 0 is not allowed")
     else:
-        print("Opción inválida")
+        print("Invalid option")
 
+calculator()
 
-calculadora()
