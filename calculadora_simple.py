@@ -26,5 +26,8 @@ def calculator():
     else:
         print("Invalid option")
 
-calculator()
+
+if __name__ == '__main__':
+
+    calculator()
 
